@@ -15,6 +15,6 @@ class Solution:
                     lst.append(int(num1/num2))
             else:
                 lst.append(int(token))
-        return lst.pop()
+        return lst[-1]
 
         
