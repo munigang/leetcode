@@ -8,6 +8,7 @@ class Solution:
             if i+2<len(nums):
                 if nums[i+2]-nums[i]>k:
                     return []
-                result.append([nums[i],nums[i+1],nums[i+2]])
+                else:
+                     result.append([nums[i],nums[i+1],nums[i+2]])
         return result
 
